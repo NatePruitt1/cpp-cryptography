@@ -1,9 +1,9 @@
 #include <cstdint>
-#include <memory>
 #include <string>
+#include <vector>
 
 namespace Utils {
 
-std::string BytesToHex(std::shared_ptr<uint8_t> data, size_t size);
+std::string BytesToHex(std::vector<uint8_t> data);
 
 }// namespace Utils
